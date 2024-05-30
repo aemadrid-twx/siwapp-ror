@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.6.3"
+ruby "2.7.4"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.3'
@@ -50,7 +50,7 @@ group :test do
 end
 
 gem 'active_model_serializers'
-gem 'acts-as-taggable-on'  # https://github.com/mbleigh/acts-as-taggable-on
+gem 'acts-as-taggable-on' # https://github.com/mbleigh/acts-as-taggable-on
 gem 'autoprefixer-rails'
 gem 'bootsnap'
 gem 'bootstrap'
@@ -70,7 +70,7 @@ gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'rails-settings-cached'
 gem 'ransack'
-gem 'sass'
+# gem 'sassc'
 gem 'sentry-ruby'
 gem 'sentry-rails'
 gem 'valid_url'

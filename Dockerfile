@@ -1,4 +1,4 @@
-FROM ruby:2.6.3-slim
+FROM ruby:2.7.4-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -29,4 +29,4 @@ WORKDIR /app
 RUN bundle install
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["bundle", "exec", "rails", "s", "-b", "'0.0.0.0'"]
+CMD ["bin/rails server"]
