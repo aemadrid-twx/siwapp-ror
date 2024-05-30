@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.5.7"
+ruby "2.6.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.3'
@@ -44,7 +44,7 @@ end
 gem 'web-console', group: :development
 
 group :test do
-  gem 'capybara-webkit', git: 'https://github.com/thoughtbot/capybara-webkit.git', branch: 'master'
+  # gem 'capybara-webkit', git: 'https://github.com/thoughtbot/capybara-webkit.git', branch: 'master'
   gem 'selenium-webdriver'
   gem 'database_cleaner'
 end

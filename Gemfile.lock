@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/thoughtbot/capybara-webkit.git
-  revision: 77fdac424cd6fdb5aa266b229a888cc58da8e95e
-  branch: master
-  specs:
-    capybara-webkit (1.15.1)
-      capybara (>= 2.3, < 4.0)
-      json
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,14 +64,6 @@ GEM
       sassc-rails (>= 2.0.0)
     builder (3.2.3)
     byebug (11.0.1)
-    capybara (3.29.0)
-      addressable
-      mini_mime (>= 0.1.3)
-      nokogiri (~> 1.8)
-      rack (>= 1.6.0)
-      rack-test (>= 0.6.3)
-      regexp_parser (~> 1.5)
-      xpath (~> 3.2)
     case_transform (0.2)
       activesupport
     celluloid (0.17.4)
@@ -162,7 +145,6 @@ GEM
     js-routes (1.4.9)
       railties (>= 4)
       sprockets-rails
-    json (2.3.1)
     jsonapi-renderer (0.2.2)
     listen (3.2.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -251,7 +233,6 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rdoc (6.3.2)
-    regexp_parser (1.6.0)
     request_store (1.4.1)
       rack (>= 1.4)
     route_translator (7.0.1)
@@ -345,8 +326,6 @@ GEM
       celluloid
       wisper
     wkhtmltopdf-binary (0.12.4)
-    xpath (3.2.0)
-      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
@@ -359,7 +338,6 @@ DEPENDENCIES
   bootsnap
   bootstrap
   byebug
-  capybara-webkit!
   cocoon
   coffee-rails
   database_cleaner
@@ -404,7 +382,7 @@ DEPENDENCIES
   wkhtmltopdf-binary
 
 RUBY VERSION
-   ruby 2.5.7p206
+   ruby 2.6.3
 
 BUNDLED WITH
    1.17.3

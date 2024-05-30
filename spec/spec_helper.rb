@@ -94,7 +94,7 @@ RSpec.configure do |config|
 end
 
 require 'capybara/rspec'
-require 'capybara/webkit'
+# require 'capybara/webkit'
 
 Capybara.configure do |config|
   config.server = :puma

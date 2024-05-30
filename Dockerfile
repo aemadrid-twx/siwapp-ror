@@ -1,4 +1,4 @@
-FROM ruby:2.5.7-slim
+FROM ruby:2.6.3-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -27,3 +27,5 @@ WORKDIR /app
 
 # Install dependencies
 RUN bundle install
+
+CMD ["bundle", "exec", "rails", "s", "-b", "'0.0.0.0'"]
